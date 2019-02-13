@@ -38,25 +38,6 @@
   border: none;
 }
 
-.bolt__header__hamburger {
-  width: 50px;
-  height: 30px;
-  position: absolute;
-  top: 40px;
-  right: 5%;
-  border: 1px solid #ddd;
-  padding: 10px;
-  border-radius: 4px;
-  display: none;
-}
-
-.bolt__header__hamburger__item {
-  width: 35px;
-  height: 1px;
-  border-bottom: 3px solid #ddd;
-  margin: 0 auto 8px;
-}
-
 /*main*/
 /*bolt*/
 
@@ -362,7 +343,7 @@
   }
 
   .bolt__header__hamburger {
-    display: block;
+    display: none;
   }
 
   /*main*/
