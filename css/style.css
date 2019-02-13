@@ -18,8 +18,9 @@
   margin: 15px 0 15px 20%;
 }
 
-.bolt__header__thunder__Color {
+.bolt__header__thunder__color {
   color: #4e4e4e;
+  font-size: 2em;
 }
 
 .bolt__header__contactBtn {
@@ -224,6 +225,7 @@
 
 .bolt__sns__icon__item {
   color: #74cfae;
+  font-size: 2em;
 }
 
 /*footer*/
@@ -245,6 +247,19 @@
 }
 
 @media screen and (min-width:768px) and (max-width:1199px) {
+
+  /*header*/
+
+  .bolt__header {
+    width: 97%;
+  }
+
+  /*main*/
+  /*bolt*/
+
+  .bolt__inner {
+    width: 97%;
+  }
 
   /*phone*/
 
@@ -294,8 +309,55 @@
     display: block;
     margin: 0 0 88px;
   }
+
+  /*footer*/
+
+  .bolt__footer {
+    width: 97%;
+  }
 }
 
-@media screen and(max-width:767px) {
+@media screen and (max-width:767px) {
 
+  /*header*/
+
+  .bolt__header {
+    width: 97%;
+  }
+
+  .bolt__header__thunder {
+    margin: 30px 0 30px 10%;
+  }
+
+  .bolt__header__thunder__color {
+    font-size: 4em;
+  }
+
+  .bolt__header__contactBtn__contact {
+    display: none;
+  }
+
+  .bolt__header__contactBtn:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+  }
+
+  /*main*/
+  /*bolt*/
+
+  .bolt__inner {
+    width: 97%;
+  }
+
+  /*footer*/
+
+  .bolt__footer {
+    width: 97%;
+  }
+  
 }
