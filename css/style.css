@@ -207,6 +207,9 @@
 .bolt__sns ul {
   font-size: 0;
 }
+.bolt__sns ul li {
+  display: inline-block;
+}
 
 .bolt__sns__icon {
   width: 185px;
