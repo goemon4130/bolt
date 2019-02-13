@@ -38,6 +38,25 @@
   border: none;
 }
 
+.bolt__header__hamburger {
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  top: 40px;
+  right: 5%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
+.bolt__header__hamburger__item {
+  width: 35px;
+  height: 1px;
+  border-bottom: 3px solid #ddd;
+  margin: 0 auto 8px;
+}
+
 /*main*/
 /*bolt*/
 
@@ -326,7 +345,7 @@
   }
 
   .bolt__header__thunder {
-    margin: 30px 0 30px 10%;
+    margin: 30px 0 30px 5%;
   }
 
   .bolt__header__thunder__color {
@@ -337,14 +356,13 @@
     display: none;
   }
 
-  .bolt__header__contactBtn:before {
-    content: "";
+  .bolt__header__contactBtn {
+    top: 40px;
+    right: 5%;
+  }
+
+  .bolt__header__hamburger {
     display: block;
-    width: 30px;
-    height: 30px;
-    padding: 10px;
-    border: solid 1px #ddd;
-    border-radius: 4px;
   }
 
   /*main*/
