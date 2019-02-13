@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+/*header*/
+
+.bolt {
+  background-color: #d3d3d3;;
+}
+
+.bolt__header {
+  background-color: #fff; 
+  position: relative;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.bolt__header__thunder {
+  display: inline-block;
+  margin: 15px 0 15px 20%;
+}
+
+.bolt__header__thunder__Color {
+  color: #4e4e4e;
+}
+
+.bolt__header__contactBtn {
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  right: 20%;
+}
+
+.bolt__header__contactBtn__contact {
+  background-color: #74cfae;
+  color: #fff;
+  font-size: 12px;
+  padding: 14px 12px;
+  border: none;
+}
+
+/*main*/
+/*bolt*/
+
+.bolt__inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.bolt__inner__item {
+ padding: 250px 0;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.bolt__inner__item__Theme {
+  color: #74cfae;
+  display: inline;
+  font-size: 90px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+
+.bolt__inner__item__ThemeSub {
+  color: #c0c0c0;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+}
+/*phone*/
+
+.bolt__phone {
+  background-color: #74cfae;
+  padding: 50px 15% 0;
+  display: flex;
+}
+
+.bolt__phone__item {
+  width: 60%;
+  margin: 20px auto 0;
+  text-align: center;
+  color: #fff;
+}
+
+.bolt__phone__item__head {
+  font-size: 24px;
+  margin-bottom: 35px;
+  display: inline-block;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.bolt__phone__item__foot {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+/*gallery*/
+
+.bolt__gallery {
+  font-size: 0;
+  padding-bottom: 70px;
+  background-color: #f2f2f2;
+}
+
+.bolt__gallery__title {
+  text-align: center;
+  padding: 60px 0 40px;
+}
+
+.bolt__gallery__title__inner {
+  display: inline;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+}
+
+.bolt__gallery__img {
+  margin-bottom: 90px;
+}
+
+.bolt__gallery__img__inner {
+  font-size: 0;
+}
+
+.bolt__gallery__img__inner:first-child {
+  margin-bottom: 80px;
+}
+
+.bolt__gallery__img__inner__item {
+  margin-left: 100px;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.bolt__gallery__img__inner__item:hover {
+  opacity: 1.0;
+}
+
+.bolt__gallery__img__inner__item:first-child {
+  margin-left: 0;
+}
+
+.bolt__gallery__foot {
+  text-align: center;
+}
+
+.bolt__gallery__foot__item {
+  display: inline-block;
+  color: #333;
+  font-size: 16px;
+  vertical-align: bottom;
+  width: 43%;
+  font-family: 'Lato', sans-serif;
+}
+
+.bolt__gallery__foot__btn {
+  background-color: #74cfae;
+  color: #fff;
+  font-size: 12px;
+  padding: 14px 20px;
+  vertical-align: top;
+  margin-left: 90px;
+  transition: color 0.3s;
+}
+
+.bolt__gallery__foot__btn:hover {
+  color: #333;
+}
+
+/*reload*/
+
+.bolt__reload {
+  background-color: #333;
+  padding: 70px 0 100px;
+}
+
+.bolt__reload__title {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.bolt__reload__img {
+  text-align: center;
+}
+
+.bolt__reload__img__item {
+  display: inline-block;
+  margin-left: 180px;
+}
+
+.bolt__reload__img__item:first-child {
+  margin-left: 0;
+}
+
+.bolt__reload__img__item__title {
+  font-size: 16px;
+  color: #fff;
+}
+
+/*sns*/
+
+.bolt__sns {
+  padding: 200px 0 200px;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.bolt__sns ul {
+  font-size: 0;
+}
+
+.bolt__sns__icon {
+  width: 185px;
+  padding: 40px 0;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.bolt__sns__icon:hover {
+  background-color: #fff;
+}
+
+.bolt__sns__icon__item {
+  color: #74cfae;
+}
+
+/*footer*/
+
+.bolt__footer {
+  background-color: #74cfae;
+  padding: 20px 0 25px;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.bolt__footer__text {
+  width: 80%;
+  text-align: right;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+@media screen and (min-width:768px) and (max-width:1199px) {
+
+  /*phone*/
+
+  .bolt__phone {
+    display: block;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  .bolt__phone__item {
+    width: auto;
+    margin: auto;
+  }
+
+  .bolt__phone__item__head {
+    margin: 20px 0 35px;
+  }
+
+  /*gallery*/
+
+  .bolt__gallery__img {
+    margin-bottom: 80px;
+  }
+
+  .bolt__gallery__img__inner__item {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .bolt__gallery__img__inner__item:first-child {
+    margin: 0 auto;
+  }
+
+  .bolt__gallery__foot__item {
+    display: block;
+    width: auto;
+  }
+
+  .bolt__gallery__foot__btn {
+    margin-top: 40px;
+    margin-left: 0;
+  }
+
+  /*reload*/
+
+  .bolt__reload__img__item {
+    display: block;
+    margin: 0 0 88px;
+  }
+}
+
+@media screen and(max-width:767px) {
+
+}
