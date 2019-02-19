@@ -20,9 +20,11 @@
         <div class="bolt__header__thunder">
           <i class="fa fa-flash bolt__header__thunder__color"></i> 
         </div>
-        <div class="bolt__header__contactBtn">
-          <input type="button" value="Contact" class="bolt__header__contactBtn__contact">
-        </div>
+        <input type="button" value="contact" class="bolt__header__contactBtn" id="bolt__header__contactBtn">
+        <input type="checkbox" id="bolt__header__hamburger" class="bolt__header__hamburger" onchange="hamburger();">
+        <label for="bolt__header__hamburger" class="bolt__header__label">
+          <span class="bolt__header__label__item"></span>
+        </label>
       </header>
       <main class="bolt__inner">
         <div class="bolt__inner__item">
@@ -86,7 +88,7 @@
             <li><a href="https://twitter.com/?lang=ja" class="bolt__sns__icon"><i class="fab fa-twitter bolt__sns__icon__item"></i></a></li>
             <li><a href="https://envelope.co.jp/" class="bolt__sns__icon"><i class="fas fa-envelope bolt__sns__icon__item"></i></a></li>
           </ul>
-        </section>
+        </nav>
       </main>
       <footer class="bolt__footer">
         <p class="bolt__footer__text">Crafted with<span class="footer__icon"><i class="fas fa-heart"></i></span>by BlackTie.co.</p>
