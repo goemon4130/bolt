@@ -15,85 +15,89 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
   <body>
-    <div class="bolt">
-      <header class="bolt__header">
-        <div class="bolt__header__thunder">
-          <i class="fa fa-flash bolt__header__thunder__color"></i> 
+    <header class="header">
+      <div class="header__inner">      
+        <div class="header__inner__thunder">
+          <i class="fa fa-flash header__inner__thunder__color"></i> 
         </div>
-        <input type="button" value="contact" class="bolt__header__contactBtn" id="bolt__header__contactBtn">
-        <input type="checkbox" id="bolt__header__hamburger" class="bolt__header__hamburger" onchange="hamburger();">
-        <label for="bolt__header__hamburger" class="bolt__header__label">
-          <span class="bolt__header__label__item"></span>
+        <a class="header__inner__contactBtn" id="header__inner__contactBtn">Contact</a>
+        <input type="checkbox" id="header__inner__hamburger" class="header__inner__hamburger" onchange="hamburger();"></a>
+        <label for="header__inner__hamburger" class="header__inner__label">
+          <span class="header__inner__label__item"></span>
         </label>
-      </header>
-      <main class="bolt__inner">
-        <div class="bolt__inner__item">
-          <h1 class="bolt__inner__item__Theme">Bolt Theme</h1>
-          <p class="bolt__inner__item__ThemeSub">FREE BOOTSTRAP THEMES</p>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__title">
+        <div class="main__title__inner">
+          <h1 class="main__title__inner__Theme">Bolt Theme</h1>
+          <p class="main__title__inner__ThemeSub">FREE BOOTSTRAP THEMES</p>
         </div>
-        <section class="bolt__phone">
-          <img src="./img/iphone.png" alt="iPhone" class="bolt__phone__img">
-          <div class="bolt__phone__item">
-            <h2 class="bolt__phone__item__head">WHAT WE CAN DO?</h2>
-            <p class="bolt__phone__item__foot">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+      <section class="main__phone">
+        <div class="main__phone__inner">
+          <img src="./img/iphone.png" alt="iPhone" class="main__phone__inner__img">
+            <div class="main__phone__inner__item">
+              <h2 class="main__phone__inner__item__head">WHAT WE CAN DO?</h2>
+              <p class="main__phone__inner__item__foot">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
+      </section>
+      <article class="main__gallery">
+        <div class="main__gallery__inner">
+          <h2 class="main__gallery__inner__title">OUR LATEST WORK </h2>
+          <div class="main__gallery__inner__img">
+            <a><img src="./img/01.jpg" alt=""></a>
+            <a><img src="./img/02.jpg" alt=""></a>
+            <a><img src="./img/03.jpg" alt=""></a>
+            <a><img src="./img/04.jpg" alt=""></a>
+            <a><img src="./img/05.jpg" alt=""></a>
+            <a><img src="./img/06.jpg" alt=""></a>
           </div>
-        </section>
-        <article class="bolt__gallery">
-          <div class="bolt__gallery__title">
-            <h2 class="bolt__gallery__title__inner">OUR LATEST WORK </h2>
-          </div>
-          <div class="bolt__gallery__img">
-            <div class="bolt__gallery__img__inner">
-              <img src="./img/01.jpg" alt="" class="bolt__gallery__img__inner__item">
-              <img src="./img/02.jpg" alt="" class="bolt__gallery__img__inner__item">
-              <img src="./img/03.jpg" alt="" class="bolt__gallery__img__inner__item">
+          <div class="main__gallery__inner__foot">
+            <p class="main__gallery__inner__foot__item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+            <a class="main__gallery__inner__foot__btn">Email Me!</a>
+          </div>            
+        </div>
+      </article>
+      <section class="main__reload">
+        <div class="main__reload__inner">
+          <h2 class="main__reload__inner__title">OUR SKILLS</h2>
+          <div class="main__reload__inner__img">
+            <div class="main__reload__inner__img__item">
+              <img src="./img/circle_01.png" alt="" class="main__reload__inner__img__item__circle">
+              <h3 class="main__reload__inner__img__item__title">JavaScript</h3>
             </div>
-            <div class="bolt__gallery__img__inner">
-              <img src="./img/04.jpg" alt="" class="bolt__gallery__img__inner__item">
-              <img src="./img/05.jpg" alt="" class="bolt__gallery__img__inner__item">
-              <img src="./img/06.jpg" alt="" class="bolt__gallery__img__inner__item">
+            <div class="main__reload__inner__img__item">
+              <img src="./img/circle_02.png" alt="" class="main__reload__inner__img__item__circle">
+              <h3 class="main__reload__inner__img__item__title">Bootstrap</h3>
             </div>
-          </div>
-          <div class="bolt__gallery__foot">
-            <p class="bolt__gallery__foot__item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-            <input type="button" name="submitButton" class="bolt__gallery__foot__btn" value="Email Me!">
-          </div>
-        </article>
-        <section class="bolt__reload">
-          <h2 class="bolt__reload__title">OUR SKILLS</h2>
-          <div class="bolt__reload__img">
-            <div class="bolt__reload__img__item">
-              <img src="./img/circle_01.png" alt="" class="bolt__reload__img__item__inner">
-              <h3 class="bolt__reload__img__item__title">JavaScript</h3>
+            <div class="main__reload__inner__img__item">
+              <img src="./img/circle_03.png" alt="" class="main__reload__inner__img__item__circle">
+              <h3 class="main__reload__inner__img__item__title">WordPress</h3>
             </div>
-            <div class="bolt__reload__img__item">
-              <img src="./img/circle_02.png" alt="" class="bolt__reload__img__item__inner">
-              <h3 class="bolt__reload__img__item__title">Bootstrap</h3>
+            <div class="main__reload__inner__img__item">
+              <img src="./img/circle_04.png" alt="" class="main__reload__inner__img__item__circle">
+              <h3 class="main__reload__inner__img__item__title">Photoshop</h3>
             </div>
-            <div class="bolt__reload__img__item">
-              <img src="./img/circle_03.png" alt="" class="bolt__reload__img__item__inner">
-              <h3 class="bolt__reload__img__item__title">WordPress</h3>
-            </div>
-            <div class="bolt__reload__img__item">
-              <img src="./img/circle_04.png" alt="" class="bolt__reload__img__item__inner">
-              <h3 class="bolt__reload__img__item__title">Photoshop</h3>
-            </div>
-          </div>
-        </section>
-        <nav class="bolt__sns">
-          <ul>
-            <li><a href="https://www.facebook.com/" class="bolt__sns__icon"><i class="fab fa-facebook-f bolt__sns__icon__item"></i></a></li>
-            <li><a href="https://dribbble.com/" class="bolt__sns__icon"><i class="fab fa-dribbble bolt__sns__icon__item"></i></a></li>
-            <li><a href="https://twitter.com/?lang=ja" class="bolt__sns__icon"><i class="fab fa-twitter bolt__sns__icon__item"></i></a></li>
-            <li><a href="https://envelope.co.jp/" class="bolt__sns__icon"><i class="fas fa-envelope bolt__sns__icon__item"></i></a></li>
-          </ul>
-        </nav>
-      </main>
-      <footer class="bolt__footer">
-        <p class="bolt__footer__text">Crafted with<span class="footer__icon"><i class="fas fa-heart"></i></span>by BlackTie.co.</p>
-      </footer>
-    </div>
+          </div>          
+        </div>
+      </section>
+      <nav class="main__sns">
+        <ul>
+          <li><a href="https://www.facebook.com/" class="main__sns__icon"><i class="fab fa-facebook-f main__sns__icon__item"></i></a></li>
+          <li><a href="https://dribbble.com/" class="main__sns__icon"><i class="fab fa-dribbble main__sns__icon__item"></i></a></li>
+          <li><a href="https://twitter.com/?lang=ja" class="main__sns__icon"><i class="fab fa-twitter main__sns__icon__item"></i></a></li>
+          <li><a href="https://envelope.co.jp/" class="main__sns__icon"><i class="fas fa-envelope main__sns__icon__item"></i></a></li>
+        </ul>
+      </nav>
+    </main>
+    <footer class="footer">
+      <div class="footer__inner">
+        <p class="footer__inner__text">Crafted with<span class="footer__icon"><i class="fas fa-heart"></i></span>by BlackTie.co.</p>
+      </div>
+    </footer>
     <script src="js/script.js"></script>
   </body>
 </html>
