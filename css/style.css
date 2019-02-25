@@ -60,6 +60,9 @@
 
 /*main*/
 /*title*/
+main {
+  padding-top: 70px;
+}
 
 .main__title {
   background-color: #f2f2f2;
