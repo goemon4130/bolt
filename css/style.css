@@ -2,12 +2,18 @@
 
 /*コンテンツ幅*/
 
-.header__inner, .main__title__inner, .main__phone__inner, .main__gallery__inner, .main__reload__inner, .main__sns ul, .footer__inner {
+.contents {
   width: 1100px;
   margin: 0 auto;
 }
 
 /*header*/
+
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
 
 .header__inner {
   display: flex;
@@ -265,7 +271,7 @@
 
   /*コンテンツ幅*/
 
-  .header__inner, .main__title__inner, .main__phone__inner, .main__gallery__inner, .main__reload__inner, .main__sns ul, .footer__inner {
+  .contents {
     width: 97%;
   }
 
@@ -325,7 +331,7 @@
 
   /*コンテンツ幅*/
 
-  .header__inner, .main__title__inner, .main__phone__inner, .main__gallery__inner, .main__reload__inner, .main__sns ul, .footer__inner {
+  .contents {
     width: 97%;
   }
 
